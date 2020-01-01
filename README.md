@@ -21,9 +21,12 @@ from pyecharts.faker import Faker
 from pyecharts import options as opts
 from pyecharts.charts import  Line
 
+<<<<<<< HEAD
 
 脚本实例说明：
 
 折线图实例  line_chart01.py
 柱状图实例  Histogram.py  
 树状图实例	tree_demo.py
+=======
+>>>>>>> ea7ab234063fc45dab7dd38937d8dcb6949f93e3
