@@ -28,5 +28,8 @@ from pyecharts.charts import  Line
 折线图实例  line_chart01.py
 柱状图实例  Histogram.py  
 树状图实例	tree_demo.py
+仪表盘实例	Dashboard_diagram.py
+微博关系转发图   graph_weibo.py
+模拟数据json     weibo.json
 =======
 >>>>>>> ea7ab234063fc45dab7dd38937d8dcb6949f93e3
