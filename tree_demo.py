@@ -11,19 +11,29 @@ from aiohttp import TCPConnector, ClientSession
 def tree_base() -> Tree:
     data = [
         {
+            # 父级
             "name": "flare",
             "children": [
                 {
+                    # 子集
                     "name": "analytics",
                     "children": [
                         {
+                            # 二级子集
                             "name": "cluster",
                             "children": [
-                                {"name": "AgglomerativeCluster", "value": 3938},
+                                {
+                                    # 三级子集
+                                    "name": "AgglomerativeCluster",
+                                    "children": [
+                                        {"name": "A", "value": 3534},
+                                        {"name": "B", "value": 3416}
+                                    ]
+                                 },
                                 {"name": "CommunityStructure", "value": 3812},
                                 {"name": "HierarchicalCluster", "value": 6714},
                                 {"name": "MergeEdge", "value": 743}
-                            ]
+                            ],
                         },
                         {
                             "name": "graph",
